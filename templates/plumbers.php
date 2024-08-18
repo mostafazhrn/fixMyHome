@@ -90,7 +90,64 @@ footer p {
 	    {
 		        ?>
 				    <div class="row">
-				          <div class="column" style="background-color:#aaa;">
+					  <div class="column" style="background-color:#aaa;">
+	     <style>
+        div:nth-child(1) {
+  background-image: url('../static/images/emptyCardsmall - Copy - Copy.png');
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+.h2{
+  position: relative;
+  top: 50%;
+}
+</style>
 	<p style="margin-left: 100px;"><?php echo $row['Link']; ?></p>
         <h2 style="margin-left: 100px;"><?php echo $row['Name']; ?></h2>
         
