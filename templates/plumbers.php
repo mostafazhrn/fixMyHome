@@ -66,6 +66,13 @@ footer p {
 </style>
 </head>
 <body>
+<header style="background-color:rgb(217, 217, 217);">
+      <a href="../index.php"><img src="../static/images/fixMyHome1.png" /> </a>
+      <div class="logo"></div>
+    </header>
+        <img src="../static/images/vecteezyKlyaksun.jpg" class = "center" style="width:1350px; height:200px;
+                                        image-rendering: -moz-crisp-edges;
+                                        -ms-interpolation-mode: bicubic;"></img>
 
 <h2 style="background-color:#d9d9d9;">Fix anything in your home with a press of a button</h2>
 <h2 style="background-color:#d9d9d9;"> Choose one of our trusted plumbers and book your visit on the spot</h2>
