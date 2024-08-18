@@ -1,4 +1,9 @@
-CTYPE html>
+<?php
+require_once '../config/db.php';
+$query = "SELECT * FROM plumbers";
+$result = mysqli_query($con, $query);
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
