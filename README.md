@@ -3,7 +3,7 @@ Fix my home is a webapp designed to make your life better. with our app you can 
 Fix my home provides the most skillful and trusted technicians
 At fix my home we carefully choose our technicians after a thorough background check to be sure that your home is safe in our hands
 we provide services in almost every household maintenance service
-![alt text](https://ibb.co/BLTYspz)
+![fixMyHomeLogo](https://www.imghippo.com/i/YEDCQ1723980063.png)
 
 FixMyHome is a webapp build using 
 -Html
