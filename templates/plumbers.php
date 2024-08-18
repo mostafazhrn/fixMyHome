@@ -84,6 +84,27 @@ footer p {
 
 
 <br>
+<?php
+
+  while($row = mysqli_fetch_assoc($result))
+	    {
+		        ?>
+				    <div class="row">
+				          <div class="column" style="background-color:#aaa;">
+	<p style="margin-left: 100px;"><?php echo $row['Link']; ?></p>
+        <h2 style="margin-left: 100px;"><?php echo $row['Name']; ?></h2>
+        
+        <p style="margin-left: 100px;"><?php echo $row['Tel']; ?></p>
+        <p style="margin-left: 100px;"><?php echo $row['Email']; ?></p>
+        <p style="margin-left: 100px;"><?php echo $row['rate']; ?></p>
+        <p style="margin-left: 120px;"><?php echo $row['BookBtn']; ?></p>
+        
+        
+      </div>
+    </div>
+    <?php
+  }
+?>
 
 
 
